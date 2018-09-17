@@ -15,7 +15,7 @@ site2="https://api.sunrise-sunset.org/json?lat=42.416822&lng=-83.2465677"
 ############ Create/ Appen Log ###############
 echo ${line}>>${log}
 echo ${dateTime}>>${log}
-echo "this is a test log file">>${log}
+echo "This is current Weather for Detroit">>${log}
 temp=$(curl ${site}| grep temp_f)
 temp=$(echo ${temp} | cut -b 9-12)
 echo ${temp}>>${log}

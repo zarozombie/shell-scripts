@@ -192,3 +192,7 @@ this is a test log file
 09-15-2018_21:06:02
 this is a test log file
 76.0
+----------------------------------------
+09-17-2018_18:43:44
+this is a test log file
+83.0
